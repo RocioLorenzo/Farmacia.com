@@ -1,0 +1,136 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    /* Establece la fuente a usar para el texto en el cuerpo */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Establece una imagen de fondo que se carga desde la carpeta 'Imagenes' */
+    background-image: url(Imagenes/Fondo.jpg);
+
+    /* Asegura que la imagen de fondo cubra todo el área visible */
+    background-size: cover;
+
+    /* Centra la imagen de fondo en la pantalla */
+    background-position: center;
+
+    /* Mantiene la imagen de fondo fija cuando se desplaza el contenido */
+    background-attachment: fixed;
+}
+
+/* Estilos para la barra de navegación lateral */
+.sidebar_nav {
+    /* Altura total de la barra de navegación */
+    height: 100%;
+
+    /* Ancho de la barra de navegación */
+    width: 300px;
+
+    /* Fija la barra de navegación a la izquierda de la pantalla */
+    position: fixed;
+
+    /* Establece el orden de apilamiento, asegurando que esté por encima de otros elementos */
+    z-index: 1;
+
+    /* Posiciona la barra en la parte superior izquierda de la ventana */
+    top: 0;
+    left: 0;
+
+    /* Aplica un degradado semitransparente como fondo, además de una imagen */
+    background-image: linear-gradient(
+        rgba(192, 176, 176, 0.4), /* color de inicio del degradado con opacidad */
+        rgba(192, 176, 176, 0.4)  /* color de fin del degradado con opacidad */
+    ), 
+    url(Imagenes/Logo2.jpg); /* Imagen que se coloca encima del degradado */
+
+    /* Evita que la imagen de fondo se repita */
+    background-repeat: no-repeat;
+
+    /* Evita el desbordamiento horizontal, ocultando cualquier contenido que pase el límite */
+    overflow-x: hidden;
+
+    /* Agrega un espacio superior a la barra de navegación */
+    padding-top: 10px;
+}
+
+/* Estilos para los enlaces dentro de la barra de navegación */
+.sidebar_nav a {
+    /* Espaciado alrededor del texto del enlace */
+    padding: 20px;
+
+    /* Elimina el subrayado predeterminado de los enlaces */
+    text-decoration: none;
+
+    /* Color del texto del enlace */
+    color: #222020;
+
+    /* Hace que cada enlace se muestre como un bloque */
+    display: block;
+
+    /* Establece el tamaño de fuente para los enlaces */
+    font-size: 30px;
+
+    /* Alinea el texto del enlace de manera justificada */
+    text-align: justify;
+}
+
+/* Estilos para el encabezado dentro de la barra de navegación */
+.sidebar_nav h1 {
+    /* Centra el texto del encabezado */
+    text-align: center;
+
+    /* Espaciado alrededor del encabezado */
+    padding: 10px;
+
+    /* Elimina el subrayado del encabezado */
+    text-decoration: none;
+
+    /* Color del texto del encabezado */
+    color: #222020;
+
+    /* Hace que el encabezado se muestre como un bloque */
+    display: block;
+
+    /* Establece un tamaño de fuente mayor para el encabezado */
+    font-size: 40px;
+}
+
+/* Estilos para el comportamiento de los enlaces al pasar el cursor sobre ellos */
+.sidebar_nav a:hover {
+    /* Cambia el color del texto al pasar el cursor */
+    color: #000;
+
+    /* Aplica un peso de fuente mayor, haciendo el texto más grueso */
+    font-weight: 700;
+
+    /* Cambia el color de fondo al pasar el cursor */
+    background-color: #ebd409;
+
+    /* Redondea las esquinas del fondo del enlace */
+    border-radius: 10px;
+
+    /* Ajusta el ancho del enlace, haciéndolo más grande al pasar el mouse */
+    width: 400px;
+}
+
+/* Estilos para los iconos dentro de la barra lateral */
+.sidebar_nav i {
+    /* Espacio a la derecha del icono */
+    margin-right: 5px;
+}
+
+/* Estilos para la sección principal del contenido */
+.content_main {
+    /* Agrega un margen a la izquierda para que no choque con la barra de navegación */
+    margin-left: 160px;
+
+    /* Establece el tamaño de fuente de la sección principal */
+    font-size: 22px;
+
+    /* Espaciado horizontal en el contenido */
+    padding: 0 10px;
+}
+
+/* Estilos para los párrafos dentro de la sección principal */
+.content_main p {
+    /* Alinea el texto de los párrafos de manera justificada */
+    text-align: justify;
+}

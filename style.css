@@ -1,0 +1,28 @@
+/* Aplica estilos generales a todos los elementos */
+* {
+    margin: 0; /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el padding por defecto de todos los elementos */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total del elemento */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    list-style: none; /* Elimina los puntos o numeraciones de las listas desordenadas y ordenadas */
+}
+
+/* Estilos específicos para el elemento body */
+body {
+    /* Aplica un fondo compuesto por un gradiente y una imagen */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2), /* Color negro con 20% de opacidad */
+        rgba(0, 0, 0, 0.2)  /* Color negro con 20% de opacidad (termina en el mismo color) */
+    ), 
+    url(Imagenes/Fondo.jpg); /* La imagen de fondo que se usará debajo del gradiente */
+
+    background-position: center bottom; /* Posiciona la imagen de fondo en el centro horizontal y en la parte inferior vertical */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el área del body sin distorsionarse */
+    
+    min-height: 100vh; /* Establece una altura mínima de 100% de la altura de la ventana del navegador */
+    
+    display: flex; /* Utiliza un modelo de caja flexible (flexbox) para el diseño de los hijos del body */
+    
+    align-items: center; /* Alinea los elementos hijos del body verticalmente en el centro */
+}

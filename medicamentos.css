@@ -1,0 +1,46 @@
+/* Estilo para la clase .row */
+.row {
+    align-items: center; /* Alinea verticalmente los elementos hijos en el centro */
+    text-align: justify; /* Justifica el texto en el contenedor */
+    margin-left: 320px; /* Aplica un margen izquierdo de 320 píxeles */
+    font-size: 25px; /* Establece un tamaño de fuente de 25 píxeles */
+}
+
+/* Estilo para los botones con la clase .btn */
+.btn {
+    margin-left: 20px; /* Aplica un margen izquierdo de 20 píxeles al botón */
+    width: 120px; /* Establece el ancho del botón a 120 píxeles */
+    height: 50px; /* Establece la altura del botón a 50 píxeles */
+    background: #162938; /* Establece el color de fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    outline: none; /* Elimina el contorno que aparece al enfocar el botón */
+    border-radius: 6px; /* Aplica un radio de 6 píxeles a las esquinas del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    font-size: 1em; /* Establece el tamaño de fuente del texto dentro del botón */
+    color: #fff; /* Establece el color del texto dentro del botón a blanco */
+    font-weight: 500; /* Establece el peso de fuente a 500 (semi-negrita) */
+}
+
+/* Estilo para el botón al pasar el mouse sobre él */
+.btn:hover {
+    background: rgb(13, 105, 105); /* Cambia el color de fondo cuando el mouse está sobre el botón */
+}
+
+/* Estilo para los encabezados h1 dentro de .row */
+.row h1 {
+    font-size: 3em; /* Establece el tamaño de fuente del h1 a 3em (tres veces el tamaño base) */
+    color: #edf3f8; /* Establece el color del texto del h1 a un gris claro */
+    margin-bottom: 100px; /* Aplica un margen inferior de 100 píxeles al h1 */
+    background-color: rgb(13, 105, 105); /* Establece un color de fondo para el h1 */
+}
+
+/* Estilo para los inputs dentro de .row */
+.row input {
+    width: 210px; /* Establece el ancho del input a 210 píxeles */
+    padding: 5px; /* Agrega un relleno de 5 píxeles dentro del input */
+    border: none; /* Elimina el borde del input */
+    border-radius: 6px; /* Aplica un radio de 6 píxeles a las esquinas del input */
+    margin-bottom: 40px; /* Aplica un margen inferior de 40 píxeles al input */
+    font-size: 1em; /* Establece el tamaño de fuente del input */
+    color: #3C4858; /* Establece el color del texto dentro del input */
+}

@@ -1,0 +1,19 @@
+/* Establece la fuente principal para todo el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Usamos Arial y luego Helvetica como alternativas, con 'sans-serif' como última opción */
+}
+
+/* Estilo para los encabezados de nivel 1 (h1) dentro de un contenedor con clase 'row' */
+.row h1 {
+    padding: 40px; /* Agrega un espacio (padding) de 40 píxeles alrededor del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 60px; /* Establece el tamaño de la fuente a 60 píxeles, lo que hace que el texto sea grande */
+    background-color: transparent; /* El color de fondo es transparente, así que no se verá ningún color de fondo */
+    color: black; /* El color del texto es negro */
+}
+
+/* Estilo para los párrafos (p) dentro de un contenedor con clase 'row' */
+.row p {
+    font-size: 20px; /* Establece el tamaño de la fuente a 20 píxeles, que es un tamaño de texto más pequeño que el del h1 */
+    color: rgb(51, 46, 46); /* Define el color del texto usando valores RGB, que en este caso es un tono oscuro */
+}
